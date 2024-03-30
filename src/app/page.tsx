@@ -78,27 +78,54 @@
 //   )
 // }
 // exercicio card de convite
+// export default function Page() {
+
+//   return (
+//     <div className="w-96 rounded-md border border-gray-500 bg-white p-4">
+
+//       <div>
+//           <div className="inline-block">
+//             <img className="w-14 h-14 rounded-full" src="https://tailwindui.com/img/avatar-3.jpg" alt="" />
+//           </div>
+//           <div className="inline-block ml-4">
+//             <div className="pb-2 text-black">Rafaela Silva</div>
+//             <div className="pb-2 text-gray-400">Te mandou um convite!</div>
+//           </div>
+//       </div>
+
+//       <div className="mt-4">
+//         <button className="rounded-md px-5 py-3 bg-blue-800 text-white">Aceitar</button>
+//         <button className="ml-3 rounded-md px-5 py-3 border border-gray-200 text-black">Negar</button>
+//       </div>
+
+//     </div>
+//   )
+// }
+
 export default function Page() {
+    return (
+        <div className="w-screen h-screen p-5 bg-gray-900">
 
-  return (
-    <div className="w-96 rounded-md border border-gray-500 bg-white p-4">
+            <div className="mt-5">
+                <h1 className="text-3xl font-boldtext-center">Sistema de Login</h1>
 
-      <div>
-          <div className="inline-block">
-            <img className="w-14 h-14 rounded-full" src="https://tailwindui.com/img/avatar-3.jpg" alt="" />
-          </div>
-          <div className="inline-block ml-4">
-            <div className="pb-2 text-black">Rafaela Silva</div>
-            <div className="pb-2 text-gray-400">Te mandou um convite!</div>
-          </div>
-      </div>
+                <div className="my-6">
+                    <label className="block text-lg mb-2" htmlFor="emailField">Endereço de email</label>
+                    <input className="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 outline-yellow-500" type="email" name="" id="emailField" />
+                </div>
 
-      <div className="mt-4">
-        <button className="rounded-md px-5 py-3 bg-blue-800 text-white">Aceitar</button>
-        <button className="ml-3 rounded-md px-5 py-3 border border-gray-200 text-black">Negar</button>
-      </div>
+                <div className="my-6">
+                    <label className="block text-lg mb-2" htmlFor="passwordField">Senha</label>
+                    <input className="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 outline-yellow-500" type="password" name="" id="passwordField" />
+                </div>
 
-    </div>
-
-  )
+                <div className="my-6">
+                    <button className="w-full p-2 rounded-md text-lg font-bold border-none text-white bg-yellow-500">Entrar</button>
+                </div>
+            </div>
+            <div className="text-center text-gray-400">
+                Não é membro? <a className="text-yellow-500 font-bold" href="">Faça seu cadastro agora.</a>
+            </div>
+        </div>
+    )
 }
