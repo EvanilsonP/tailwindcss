@@ -24,16 +24,25 @@
 
 // export default Page;
 
-// p padding
-// m marging
-// ml margin left / mb margin botton
+// // p padding
+// // m marging
+// // ml margin left / mb margin botton
+// export default function Page() {
+//   return (
+//     <div>
+//       <div className="bg-blue-600 w-36 h-36 p-2 m-2">1</div>
+//       <div className="bg-blue-600 w-36 h-36">2</div>
+//       <div className="bg-green-600 w-36 h-36 mt-36 ml-80">3</div>
+//       <div className="bg-blue-950 w-36 h-36 my-8">4</div>
+//     </div>
+//   )
+// }
+
 export default function Page() {
   return (
-    <div>
-      <div className="bg-blue-600 w-36 h-36 p-2 m-2">1</div>
-      <div className="bg-blue-600 w-36 h-36">2</div>
-      <div className="bg-green-600 w-36 h-36 mt-36 ml-80">3</div>
-      <div className="bg-blue-950 w-36 h-36 my-8">4</div>
+    <div className="w-screen h-screen p-5">
+      <div className="bg-gray-500  text-xl w-20 truncate">Um texto qualquer</div>
+      <div className="bg-gray-50 text-black text-xl w-20 line-clamp-3">Algum texto qlq que to usando aqui pq to na rpessa e nem to usando gramatica apropriada</div>
     </div>
   )
 }
