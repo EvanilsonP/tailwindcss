@@ -152,18 +152,51 @@
 // }
 
 // grid
-export default function Page() {
+// export default function Page() {
+//     return (
+//         <div className="grid grid-cols-3 gap-3">
+//             <div className="rounded-md bg-blue-500 text-white p-4 text-center">Brazil</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">2</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">3</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">4</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">5</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">6</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">7</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">8</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">9</div>
+//         </div>
+//     )
+// }
+
+// // gradient
+// export default function Page() {
+//     return (
+//         <div className="w-60 h-60 bg-gradient-to-r from-sky-300 to-indigo-500">
+
+//         </div>
+//     )
+// }
+
+// animações
+// export default function app() {
+//     return (
+//         <div className="container mx-auto ">
+//             <div className="transition-all duration-200 ease-linear w-40 h-24 bg-green-500 hover:w-full">
+
+//             </div>
+//         </div>
+//     )
+// }
+
+// SVG
+export default function app() {
     return (
-        <div className="grid grid-cols-3 gap-3">
-            <div className="rounded-md bg-blue-500 text-white p-4 text-center">Brazil</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">2</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">3</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">4</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">5</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">6</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">7</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">8</div>
-            <div className="rounded-md bg-blue-500 text-white p-4">9</div>
+        <div className="container mx-auto bg-gray-900 p-12">
+            <div>
+                <svg className="w-36 h-32 fill-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m-6 3.75 3 3m0 0 3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                </svg>
+            </div>
         </div>
     )
 }
