@@ -133,7 +133,7 @@
 export default function Page() {
     return (
         <div className="container bg-gray-800 mx-auto">
-            IO
+            <p className="bg-blue-200 md:bg-blue-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error corporis! Odio explicabo, minima excepturi animi cumque impedit similique quae vero, commodi maxime incidunt beatae, debitis hic fugit voluptates assumenda.</p>
         </div>
     )
 }
