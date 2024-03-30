@@ -57,13 +57,23 @@
 // }
 
 // exercicio botão
+// export default function Page() {
+//   return (
+//     <div className="w-screen h-screen p-5">
+//       <button className="bg-blue-500 text-white rounded-md px-5 py-2 border-none">Clique aqui</button>
+//       <button className="px-5 py-2 rounded-md border border-blue-500 text-white rounded-xl">Clique aqui</button>
+//     </div>
+//   )
+// }
+
+// exercicio alerta
 export default function Page() {
-  return (
+  return(
     <div className="w-screen h-screen p-5">
-      <button className="bg-blue-500 text-white rounded-md px-5 py-2 border-none">Clique aqui</button>
-      <button className="px-5 py-2 rounded-md border border-blue-500 text-white rounded-xl">Clique aqui</button>
+      <div className="bg-yellow-100 text-yellow-500 border-l-4 border-yellow-700 p-3">
+        Você não tem mais acesso.
+       <a className="underline ml-1 cursor-pointer">Faça o upgrade da sua conta.</a>
+       </div>
     </div>
   )
 }
-
-// 
