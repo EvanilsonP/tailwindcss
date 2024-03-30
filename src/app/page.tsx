@@ -129,7 +129,7 @@
 //         </div>
 //     )
 // }
-
+    // responsibidade
 // export default function Page() {
 //     return (
 //         <div className="container bg-gray-800 mx-auto">
@@ -140,13 +140,30 @@
 
 // flex por podrão é row
 // flex col coluna
+// export default function Page() {
+//     return (
+//         <div className="flex flex-col gap-2">
+//             <div className="rounded-md bg-blue-500 text-white p-4">1</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">2</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">3</div>
+//             <div className="rounded-md bg-blue-500 text-white p-4">4</div>
+//         </div>
+//     )
+// }
+
+// grid
 export default function Page() {
     return (
-        <div className="flex flex-col gap-2">
-            <div className="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div className="grid grid-cols-3 gap-3">
+            <div className="rounded-md bg-blue-500 text-white p-4 text-center">Brazil</div>
             <div className="rounded-md bg-blue-500 text-white p-4">2</div>
             <div className="rounded-md bg-blue-500 text-white p-4">3</div>
             <div className="rounded-md bg-blue-500 text-white p-4">4</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">5</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">6</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">7</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">8</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">9</div>
         </div>
     )
 }
