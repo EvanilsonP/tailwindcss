@@ -47,11 +47,23 @@
 //   )
 // }
 
+// export default function Page() {
+//   return (
+//     <div className="w-screen h-screen p-5">
+//       <div className="w-80 h-80 bg-gray-800 border-4 border-white border-l-blue-500 border-r-rose-500 rounded-full"></div>
+//       <input className="w-80 outline-green-600"/>
+//     </div>
+//   )
+// }
+
+// exercicio botão
 export default function Page() {
   return (
     <div className="w-screen h-screen p-5">
-      <div className="w-80 h-80 bg-gray-800 border-4 border-white border-l-blue-500 border-r-rose-500 rounded-full"></div>
-      <input className="w-80 outline-green-600"/>
+      <button className="bg-blue-500 text-white rounded-md px-5 py-2 border-none">Clique aqui</button>
+      <button className="px-5 py-2 rounded-md border border-blue-500 text-white rounded-xl">Clique aqui</button>
     </div>
   )
 }
+
+// 
