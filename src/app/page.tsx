@@ -38,11 +38,20 @@
 //   )
 // }
 
+// export default function Page() {
+//   return (
+//     <div className="w-screen h-screen p-5">
+//       <div className="bg-gray-500  text-xl w-20 truncate">Um texto qualquer</div>
+//       <div className="bg-gray-50 text-black text-xl w-20 line-clamp-3">Algum texto qlq que to usando aqui pq to na rpessa e nem to usando gramatica apropriada</div>
+//     </div>
+//   )
+// }
+
 export default function Page() {
   return (
     <div className="w-screen h-screen p-5">
-      <div className="bg-gray-500  text-xl w-20 truncate">Um texto qualquer</div>
-      <div className="bg-gray-50 text-black text-xl w-20 line-clamp-3">Algum texto qlq que to usando aqui pq to na rpessa e nem to usando gramatica apropriada</div>
+      <div className="w-80 h-80 bg-gray-800 border-4 border-white border-l-blue-500 border-r-rose-500 rounded-full"></div>
+      <input className="w-80 outline-green-600"/>
     </div>
   )
 }
