@@ -130,10 +130,23 @@
 //     )
 // }
 
+// export default function Page() {
+//     return (
+//         <div className="container bg-gray-800 mx-auto">
+//             <p className="bg-blue-200 md:bg-blue-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error corporis! Odio explicabo, minima excepturi animi cumque impedit similique quae vero, commodi maxime incidunt beatae, debitis hic fugit voluptates assumenda.</p>
+//         </div>
+//     )
+// }
+
+// flex por podrão é row
+// flex col coluna
 export default function Page() {
     return (
-        <div className="container bg-gray-800 mx-auto">
-            <p className="bg-blue-200 md:bg-blue-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, error corporis! Odio explicabo, minima excepturi animi cumque impedit similique quae vero, commodi maxime incidunt beatae, debitis hic fugit voluptates assumenda.</p>
+        <div className="flex flex-col gap-2">
+            <div className="rounded-md bg-blue-500 text-white p-4">1</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">2</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">3</div>
+            <div className="rounded-md bg-blue-500 text-white p-4">4</div>
         </div>
     )
 }
